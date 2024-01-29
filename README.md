@@ -46,11 +46,7 @@ To install DJS Self Clone Bot, follow these steps:
    - Copy the token value. This is your Discord token. **Do not share this with anyone.**
 
 2. **Setting Up .env File:**
-   - Create a `.env` file in the root directory of the bot.
-   - Add the following line:
-     ```
-     TOKEN=Your_Discord_Token
-     ```
+   - Open the `.env` file in the root directory of the bot.
    - Replace `Your_Discord_Token` with the token you obtained from Discord.
 
 ## Running the Bot
