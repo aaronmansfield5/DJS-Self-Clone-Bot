@@ -55,7 +55,7 @@ client.on('messageCreate', async (message) => {
                 }
 
                 for (const channel of channels.values()) {
-                    if (channel.type !== "GUILD_CATEGORY" && channel.type !== "GUILD_NEWS") {
+                    if (channel.type !== "GUILD_CATEGORY" && channel.type !== "GUILD_NEWS" && channel.type !== "GUILD_STAGE_VOICE") {
                         if (!channel.parentId) {
                             await newGuild.channels.create(channel.name, {
                                 type: channel.type,
